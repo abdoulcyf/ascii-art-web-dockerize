@@ -8,7 +8,8 @@ Dockerize is the dockerization [the ASCII Art Web](https://learn.01founders.co/g
 - [Alireza Sanandaji](https://learn.01founders.co/git/asananda)
 
 ## Usage: How to Run
-To dockerize the ASCII Art Web application, follow these steps:
+To dockerize the  [the ASCII Art Web](https://learn.01founders.co/git/ediallo/ascii-art-web.git) application, follow these steps:
+1. Make sure docker is install and configured on my machine
 1. Clone the repository: `git@github.com:abdoulcyf/dockerize.git`
 2. Navigate to the project directory: `cd dockerize`
 3. Build the Docker image: `docker build -t [image name] .`
