@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ascii Art Web App</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ASCII Art Web</title>
+    <style>
+        body {
+            background-color: #f7f7f7;
+            font-family: Arial, sans-serif;
+            margin: auto;
+            padding: 20px;
+            max-width: 600px; /* Limit width to 600px */
+        }
+
+        .container {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        label {
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        @media (max-width: 600px) {
+            /* Apply styles for screens with a maximum width of 600px */
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 10px;
+            }
+
+            input[type="text"],
+            select,
+            button {
+                width: auto; /* Adjust width to fit content */
+            }
+        }
+    </style>
+</head>
+<body>
+<h1>ASCII Art Web</h1>
+<form method="POST" action="/ascii-art">
+    <label for="text">Text:</label><br>
+    <textarea  id="text" name="text" placeholder="Type something" required></textarea><br>
+    <label for="banner">Banner:</label><br>
+    <select id="banner" name="banner">
+        <option value="shadow">Shadow</option>
+        <option value="standard">Standard</option>
+        <option value="thinkertoy">Thinkertoy</option>
+        <!-- <option value="SKit">Skit</option> -->
+    </select><br><br>
+    <button type="submit">Generate ASCII Art</button>
+</form>
+</body>
+</html>`
+</body>
+</html>

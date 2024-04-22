@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ASCII ART WEB</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+    <title>ASCII Art Result</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            font-family: monospace;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                margin-top: 10px;
+            }
+        }
+
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        @media (max-width: 400px) {
+            /* Apply styles for screens with a maximum width of 400px */
+            pre {
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+<h1>ASCII Art Result</h1>
+<pre id="banner">{{.Banner}}</pre>
+<a href={{.Url}}>
+    <button>Back To HomePage</button>
+  </a>
+</body>
+</html>
+</body>
+</html>
