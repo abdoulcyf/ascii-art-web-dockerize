@@ -5,7 +5,7 @@ Dockerize is the dockerization [the ASCII Art Web](https://learn.01founders.co/g
 
 ## Authors
 - [Elhadj Abdoul](https://github.com/abdoulcyf)
-- [Alireza Sanandaji](https://learn.01founders.co/git/asananda)
+- [Reza](https://learn.01founders.co/git/asananda)
 
 ## Usage: How to Run
 To dockerize the  [the ASCII Art Web](https://learn.01founders.co/git/ediallo/ascii-art-web.git) application, follow these steps:
