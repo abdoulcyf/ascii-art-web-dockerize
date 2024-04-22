@@ -1,18 +1,19 @@
-# ASCII Art Web
+# Dockerize
 
 ## Description
-ASCII Art Web is a simple web application that allows users to generate ASCII art from text input using various banner styles.
+Dockerize is the dockerization [the ASCII Art Web](https://learn.01founders.co/git/ediallo/ascii-art-web.git) which is a simple web application that allows users to generate ASCII art from text input using various banner styles.
 
 ## Authors
 - [Elhadj Abdoul](https://github.com/abdoulcyf)
 - [Alireza Sanandaji](https://learn.01founders.co/git/asananda)
+
 ## Usage: How to Run
-To run the ASCII Art Web application, follow these steps:
-1. Clone the repository: `git clone https://learn.01founders.co/git/ediallo/ascii-art-web.git`
-2. Navigate to the project directory: `cd ascii-art-web`
-3. Build the project: `make build`
-4. Run the application: `make run`
-5. Access the application in your web browser at: `http://localhost:2030`
+To dockerize the ASCII Art Web application, follow these steps:
+1. Clone the repository: `git@github.com:abdoulcyf/dockerize.git`
+2. Navigate to the project directory: `cd dockerize`
+3. Build the Docker image: `docker build -t [image name] .`
+4. Run the Docker container: `docker run -p 8080:8080 [image name]`
+5. Access the application in your web browser at: `http://localhost:8080`
 
 ## Implementation Details: Algorithm
 The ASCII Art generation algorithm works as follows:
